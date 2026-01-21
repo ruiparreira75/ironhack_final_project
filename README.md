@@ -18,30 +18,28 @@ XXXXXXXX
 
 ## Research Questions & Business Objectives
 
-XXXXXX
-
+Most played games by average playtime?
+What are the most reviewed games?
+What are the games with the highest concorrent players during the analysis?
+Top 20 Most Addictive Games all time?
+Top 20 Most Addictive Games in recently costing under 20 dolares? 
 
 ---------------------------------
-### Hyphotesis1: Title
+### Hyphotesis1
+ "Free-to-play games (price = 0) have higher concurrent users than paid games." 
 
-Hyphotesis: XXXX
-Research Question: XXXXX
+H₀ Free‑to‑play games (price = 0) have the same average concurrent users (CCU) as paid games. 
+H₁ Free‑to‑play games (price = 0) have higher average concurrent users than paid games. 
 
------------------------------------
-### Hyphotesis2
+created correlation matrix discovering that CCU (concurrent players) is the main metrics, alongside owners and playtime. 
+For this hypothesis conducted Welch’s t‑test
 
-XXXXX
-
------------------------------------
-### Hyphotesis 3 
-
-XXXXX
-
------------------------------------
-### Hyphotesis 4
-
-XXXXXXXXX
-
+New questions:
+Of all the people who own the game, how many are playing right now? 
+test if whether engagement intensity changes with price (created bins)
+identify top outliers to identify high engagement in some titles
+Analysed the standard deviation
+the dataset is vere skewed and long‑tailed, so i calculated the z-scores to measure the stand dev.
 
 ## Dataset Selection 
 
@@ -63,6 +61,7 @@ The dataset contains names of the games, developer/publisher names, positive/neg
 - Trello (project management)  
 - GitHub (collaboration)
 - Tableu (visualization)
+- MySQL (data manipulation)
 
 ### 1. Project Management
 I created a Kanban board on Trello to organize tasks throughout the project:
@@ -77,10 +76,10 @@ I commit and push files everyday during the project.
 
 
 
-
 ### 3. Final project presentation
 The results of my analysis are available in the project presentation:
 
+XXXXXXXX
 
 
 
@@ -90,16 +89,24 @@ The results of my analysis are available in the project presentation:
 Selected the dataset and analyzed its structure 
 
 
-
 ## Day 2 – Clean and wrangle data 
+Started cleaning the dataset. 
+drop collumns and created new ones
+created kpis for engagement
+Selected the hypothesis. 
 
 
+## Day 3  
+Stated EDA analysis to awnser the questions for the hypothesis
+Created addictiveness score kpi using average playtime (ever and 2 weeks).
 
-## Day 3 - Supervised Learning
 
-
-
-## Day 4
+## Day 4 
+Done some queries in SQL: 
+- XXXX
+. XXX 
+. XXX 
+- XXX 
 
 
 
