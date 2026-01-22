@@ -74,6 +74,20 @@ https://github.com/ruiparreira75/ironhack_final_project
 
 I commit and push files everyday during the project.
 
+### 3. Miro and DrawnDB schema for SQL
+I draw a simple miro schema for the table in here:
+https://miro.com/app/board/uXjVGM5h0fg=/
+https://www.drawdb.app/editor?shareId=80badfa2e3dc95eb5247f480734e573e
+
+diagram 2
+https://www.drawdb.app/editor?shareId=029da59327b0ef8792dcad2249d94cd4
+
+
+For this project, I don't need N:N Relationship, because the dataset is a flat table with no separate entities.
+
+
+
+
 
 
 ### 3. Final project presentation
