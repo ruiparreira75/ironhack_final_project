@@ -82,12 +82,12 @@ https://www.drawdb.app/editor?shareId=80badfa2e3dc95eb5247f480734e573e
 diagram 2
 https://www.drawdb.app/editor?shareId=029da59327b0ef8792dcad2249d94cd4
 
-
 For this project, I don't need N:N Relationship, because the dataset is a flat table with no separate entities.
 
+### 4. Draft insights in Tableu
+I draft some insinghts in Tableu, public story can be found here:
 
-
-
+XXXXXXX
 
 
 ### 3. Final project presentation
@@ -110,22 +110,37 @@ created kpis for engagement
 Selected the hypothesis. 
 
 
-## Day 3  
+## Day 3 - EDA Analysis
 Stated EDA analysis to awnser the questions for the hypothesis
 Created addictiveness score kpi using average playtime (ever and 2 weeks).
 
 
-## Day 4 
+## Day 4 - MySQL queries 
+Draw schema in Miro and DrawDB
 Done some queries in SQL: 
-- XXXX
-. XXX 
-. XXX 
-- XXX 
+- Average_Lifetime_Playtime_Ranking
+. discount_impact 
+. engagement_ratio 
+- estimated_revenue
+- publisher_rankings
+- recent_engagement
+- review_quality
 
 
+## Day 5 – Insights draft in Tableu
+- Engagement vs price
+- CCU vs Ownsers
+- Top CCU Games
+- Avg CCU: Free vs Paid
+- Most played by average playtime
+- most reviewd games
+- Price vs Engagement Regression
+- Top 10 Publishers by Player Base
 
-## Day 5 – 
+Created dashboard and story as well. 
 
+## Day 6 - Drafting narrative 
+Started drafting narrative with conclusions on slides. 
 
 
 ## Analysis & Conclusions
@@ -135,10 +150,11 @@ Done some queries in SQL:
 
 
 
-### Future Work and Improvements
-
-
-
 
 ## Challenges in the Project
+- trying to normalize data (free vs paid games)
+- Choose the right method to analyse hipothesys
+
+
+### Future Work and Improvements
 
