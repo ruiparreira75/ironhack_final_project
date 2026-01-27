@@ -1,19 +1,19 @@
-# ironhack_final_project
+ironhack_final_project
 This is the repository for my Ironhack bootcamp project
 
 
+# Understanding Engagement on Steam: A Statistical Exploration of PC gaming
+
+## Project Overview
+
+This project explores player behavior and market dynamics on Steam using the SteamSpy dataset. Through a structured exploratory data analysis, it examines how ownership, engagement, playtime,  and pricing interact across hundreds of games. 
+The analysis highlights the platform’s long‑tailed distribution, where a small number of blockbuster titles dominate attention, while most games operate at much smaller scales. These insights establish a solid foundation for KPI development, hypothesis testing, and deeper analytical modeling.
 
 
+## Intro
 
+Steam is a PC gaming platform, with a massive user base, with estimates in late 2025 and early 2026 pointing to around 147-154 million monthly active users, reaching peak concurrent players over 40 million in early 2025, with significant growth continuing into 2025 and 2026, solidifying its position as the leading PC gaming platform. 
 
-
-# Project Overview
-
-XXXXXXXX
-
-## Introduction
-
-XXXXXXXX
 
 
 ## Research Questions & Business Objectives
@@ -25,11 +25,22 @@ Top 20 Most Addictive Games all time?
 Top 20 Most Addictive Games in recently costing under 20 dolares? 
 
 ---------------------------------
-### Hyphotesis1
- "Free-to-play games (price = 0) have higher concurrent users than paid games." 
+## Hyphotesis intro
 
-H₀ Free‑to‑play games (price = 0) have the same average concurrent users (CCU) as paid games. 
-H₁ Free‑to‑play games (price = 0) have higher average concurrent users than paid games. 
+For the last 20 years as a gaming journalist, I came up with this burning question, about the good quality of free-to-play games, while the main AAA games are more expensive. With this in mind, are we at a point that free games could replace paid ones? In the hypothesis I tested if free-to-play games have higher mean concurrent users than paid games. 
+
+My hypothesis wasn’t just about raw activity, but about stronger engagement. 
+
+We expected to see higher concurrent players in free to play games, because of the large influx due to zero cost barrier. 
+
+Expected lower players in paid games, because of the purchase requirement. 
+
+
+## Hyphotesis
+
+ "Free-to-play games have higher average concurrent users than paid games." 
+
+H₀ Free‑to‑play games have the same/less average concurrent users as paid games. 
 
 created correlation matrix discovering that CCU (concurrent players) is the main metrics, alongside owners and playtime. 
 For this hypothesis conducted Welch’s t‑test
@@ -87,13 +98,13 @@ For this project, I don't need N:N Relationship, because the dataset is a flat t
 ### 4. Draft insights in Tableu
 I draft some insinghts in Tableu, public story can be found here:
 
-XXXXXXX
+https://public.tableau.com/app/profile/rui.parreira/viz/shared/KFCFSF7TW
 
 
 ### 3. Final project presentation
 The results of my analysis are available in the project presentation:
 
-XXXXXXXX
+https://www.canva.com/design/DAG_O8-lEQw/2ulZ5CPuZG38sgc1CmiT2w/edit?utm_content=DAG_O8-lEQw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
 
@@ -113,6 +124,17 @@ Selected the hypothesis.
 ## Day 3 - EDA Analysis
 Stated EDA analysis to awnser the questions for the hypothesis
 Created addictiveness score kpi using average playtime (ever and 2 weeks).
+
+### Hypothesis testing:
+
+I used a Welch’s t-test instead of a standard t-test because the two groups have very different variances:
+Free games have huge owner counts and high volatility
+Paid games have smaller, more stable distributions
+The sample sizes are also different
+Many more paid games
+Fewer free games
+Welch’s t‑test is specifically designed for unequal variances and adjusts the degrees of freedom to account for this imbalance
+
 
 
 ## Day 4 - MySQL queries 
@@ -139,16 +161,49 @@ Done some queries in SQL:
 
 Created dashboard and story as well. 
 
-## Day 6 - Drafting narrative 
+## Day 6-9 - Drafting narrative in slides
 Started drafting narrative with conclusions on slides. 
 
 
-## Analysis & Conclusions
+## Day 10 - Presentation
+I presented the project to class and the main conclusions. 
+
+
+## Conclusions
+
+Paid games have higher CCU per owner than free games. This means:
+- That paid players are more likely to be actively playing the games they own
+- Free-to-play games attract huge audiences, but a smaller fraction of those players are active at any given moment
+- Paid games have more loyal or committed players relative to their owner base
+
+We can see that free to play games have massive download numbers. But many players try the game once and never return. 
+There is a wide engagement, but shallow. 
+The data strongly contradicts my hypothesis. There is no statistical support for “free > paid”. The evidence points in the opposite direction
+
 
 ### Key Findings and Insights
 
+- Price is a strong predictor of engagement intensity
+- Free games attract, but paid games retain
+- Mid‑price games may need better retention strategies
+- High‑price games justify their cost with deeper engagement
+
+Engagement isn’t always proportional to ownership, as some games with fewer owners have high CCU
 
 
+## Key performance indicators (KPIs):
+
+Monetization Model KPIs (Free vs Paid comparison)
+
+Addictiveness score kpi (Using average playtime ever and 2 weeks)
+
+Concurrent users per owner (Of all the people who own the game, how many are playing right now?")
+
+Recent engagement (Playtime in last 2 weeks)
+
+CCU per owner across different price tiers (we can see how different price bins differ) 
+
+Top Outliers - high engagement (What are the games with most engagement)
 
 
 ## Challenges in the Project
