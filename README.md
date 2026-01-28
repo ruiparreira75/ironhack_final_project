@@ -15,7 +15,6 @@ The analysis highlights the platform’s long‑tailed distribution, where a sma
 Steam is a PC gaming platform, with a massive user base, with estimates in late 2025 and early 2026 pointing to around 147-154 million monthly active users, reaching peak concurrent players over 40 million in early 2025, with significant growth continuing into 2025 and 2026, solidifying its position as the leading PC gaming platform. 
 
 
-
 ## Research Questions & Business Objectives
 
 Most played games by average playtime?
@@ -207,9 +206,9 @@ Top Outliers - high engagement (What are the games with most engagement)
 
 
 ## Challenges in the Project
-- trying to normalize data (free vs paid games)
-- Choose the right method to analyse hipothesys
+- Trying to normalize data (free vs paid games)
+- Choose the right method to analyse hyphotesis
+- Identifying outliers
 
 
-### Future Work and Improvements
 
