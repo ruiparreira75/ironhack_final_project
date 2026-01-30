@@ -72,6 +72,7 @@ The dataset contains names of the games, developer/publisher names, positive/neg
 - GitHub (collaboration)
 - Tableu (visualization)
 - MySQL (data manipulation)
+- Canvas (Presentation)
 
 ### 1. Project Management
 I created a Kanban board on Trello to organize tasks throughout the project:
